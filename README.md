@@ -1,3 +1,19 @@
+Modify notice
+-------------
+This is a modified version of [avishorp/TM1637](https://github.com/avishorp/TM1637). 
+
+It adds the following function:
+
+| Function | Description |
+|----------|-------------|
+| `setPaternAll` | Sets a specific pattern to selected digits |
+| `setPatern` | Sets a different patterns to digits |
+| `showNumberFloat` | Displays a float number using the DP dot deciaml separator |
+| `showNumberInt` | Displays an integer number |
+| `showString` | Displays a string using 8 segment LED display letters |
+| `showTime` | Displays the time by left part, right part and colon parameters |
+| `clear` | Clears the display; it has optiona parameters to show the decimal points and colon |
+
 TM1637
 ======
 Arduino library for TM1637 (LED Driver)
