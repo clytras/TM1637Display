@@ -24,7 +24,7 @@ extern "C" {
 #include <TM1637Display.h>
 #include <Arduino.h>
 #include <math.h>
-#include <../ZKRTypes.h>
+#include "ZKRTypes.h"
 
 #define TM1637_I2C_COMM1    0x40
 #define TM1637_I2C_COMM2    0xC0
